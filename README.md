@@ -6,6 +6,7 @@ In the flag editor, the JSON import utility now allows you to easily import from
 Added the ability to easily disable the configuration of any Fast Flags (intended for troubleshooting purposes)
 Added the ability to use unsupported Roblox app languages
 Added the ability to easily open Roblox's current log file, through the activity tracker menu
+Also added a update file which brings back textures and gives you access to use fastflags that don't work yay!!!
 Existing changes
 On version upgrade, the new release notes now open in a webpage instead of just a notification popping up.
 The prompt to confirm second instance launching is now optional, being disabled by default
@@ -24,3 +25,4 @@ Fixed BloxstrapRPC not working under certain foreign system locales
 Fixed bug with JSON exporter in the flag editor erroring when copying to the clipboard
 Fully implemented flag editor validation, as I didn't do it properly last time, now validating flag types and values too.
 Added handler for if a log file cannot be written (#2135)
+
